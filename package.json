@@ -1,0 +1,43 @@
+{
+  "name": "excel-javascript",
+  "version": "1.0.0",
+  "description": "Pure Javascript Microsoft Excel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanKazakov2352/excel-pure-javascript.git"
+  },
+  "private": true,
+  "keywords": [
+    "Js",
+    "Node",
+    "Excel"
+  ],
+  "author": "IvanKazakov <kazakov3344@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanKazakov2352/excel-pure-javascript/issues"
+  },
+  "homepage": "https://github.com/IvanKazakov2352/excel-pure-javascript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.9.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
